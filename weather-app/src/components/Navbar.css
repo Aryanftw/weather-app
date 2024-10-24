@@ -13,19 +13,25 @@
 }
 
 input[type="text"] {
-  color: black; /* Set the text color to black */
-  background-color: white; /* Ensure the background is white for contrast */
-  border: 1px solid #ccc; /* Optional: Add a border for better visibility */
-  padding: 10px; /* Optional: Add some padding for better user experience */
-  font-size: 16px; /* Optional: Adjust the font size */
+  color: black; 
+  background-color: white; 
+  border: 1px solid #ccc; 
+  padding: 10px; 
+  font-size: 16px; 
 }
 
 
 input[type="text"]:focus {
-  color: black; /* Ensure the text color remains black when focused */
-  background-color: white; /* Ensure the background remains white when focused */
-  outline: none; /* Remove the default outline */
-  border-color: #007BFF; /* Optional: Change border color on focus */
+  color: black; 
+  background-color: white;
+  outline: none; 
+  border-color: #007BFF; 
+}
+
+.search{
+  color:black;
+  background-color: white;
+  border-radius: 15px;
 }
 
 

@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className="main">
       
-        <input type="text" placeholder="Search" className="input"/>
+        <input type="text" placeholder="Search city" className="input"/>
         <button type="submit" class="search">Submit</button>
       
     </div>
