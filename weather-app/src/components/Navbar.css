@@ -1,0 +1,32 @@
+.main{
+  width:100%;
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.input{
+  width: 50%;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  
+}
+
+input[type="text"] {
+  color: black; /* Set the text color to black */
+  background-color: white; /* Ensure the background is white for contrast */
+  border: 1px solid #ccc; /* Optional: Add a border for better visibility */
+  padding: 10px; /* Optional: Add some padding for better user experience */
+  font-size: 16px; /* Optional: Adjust the font size */
+}
+
+
+input[type="text"]:focus {
+  color: black; /* Ensure the text color remains black when focused */
+  background-color: white; /* Ensure the background remains white when focused */
+  outline: none; /* Remove the default outline */
+  border-color: #007BFF; /* Optional: Change border color on focus */
+}
+
+
+
