@@ -31,8 +31,5 @@ input[type="text"]:focus {
 .search{
   color:black;
   background-color: white;
-  border-radius: 15px;
+  border-radius: 20px;
 }
-
-
-

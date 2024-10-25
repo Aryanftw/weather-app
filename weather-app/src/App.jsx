@@ -3,7 +3,7 @@ import Card from './components/Card'
 import { useState } from 'react'
 
 const App = () => {
-  const [input,setInput] = useState("")
+  const [input,setInput] = useState(" ")
   const [city,setCity] = useState('City')
   const handleChange = (event)=>{
      setInput(event.target.value)
@@ -12,13 +12,14 @@ const App = () => {
   const handleSubmit = (event)=>{
      event.preventDefault()
      setCity(input)
-     setInput('')
+     setInput(" ")
   }
   
   return (
     <div className="app"><Card  handleChange={handleChange}
     handleSubmit={handleSubmit}
-    city={city}/></div>
+    city={city}
+    input={input}/></div>
   )
 }
 
