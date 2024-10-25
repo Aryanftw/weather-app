@@ -1,14 +1,15 @@
 import React from "react";
 import './Navbar.css'
-import { IoSearchOutline } from "react-icons/io5";
 
-const Navbar = () => {
+const Navbar = ({handleChange,handleSubmit}) => {
+  
+
   return (
     <div className="main">
-      
-        <input type="text" placeholder="Search city" className="input"/>
+      <form onSubmit={handleSubmit}>
+        <input type="text" placeholder="Search city" className="input" onChange={handleChange} />
         <button type="submit" class="search">Submit</button>
-      
+      </form>
     </div>
   );
 };
